@@ -9,3 +9,5 @@ class HomeController < ApplicationController
 	    render json: Yelp.client.search('New York', parameters)
   	end
 end
+
+
