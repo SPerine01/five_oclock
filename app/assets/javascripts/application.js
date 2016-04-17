@@ -36,4 +36,4 @@ var mapItUp = function() {
 	};
 };
 
-// var returnOfTheMap = 
+var returnOfTheMap = 
