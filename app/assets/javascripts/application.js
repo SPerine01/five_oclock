@@ -33,6 +33,7 @@ var mapItUp = function() {
 		zoom: 12,
 		streetViewControl: true,
 		zoomControl:false,
-
-	}
+	};
 };
+
+// var returnOfTheMap = 
