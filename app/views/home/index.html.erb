@@ -1,15 +1,11 @@
-<div class="map_center">
-	<div class="control_map">
-		<div id="search">
-
+<div class="map_center"></div>
+	<div id="control_map">
+		<div id="map_search">
+			<form>
+				<input type="text">
+				<a id="map_search_submit" href="#"></a>
+			</form>
 		</div>
 
-	</div>
-
-	<div class="results">
-		<%= form_tag("/search", method: "get") do %>
-
-		<% end %>
-	</div>
-
+		<div id="results"></div>
 </div>
