@@ -8,7 +8,7 @@ Yelp.client.configure do |config|
   config.token_secret = ENV['YELP_TOKEN_SECRET']
 end
 
-Yelp.client.seach("New York", { term: 'happy_hour'})
+Yelp.client.search("New York", { term: 'happy_hour'})
 
 # params = {
 # 	term: "happy hour",
