@@ -23,4 +23,4 @@ locale = {
 	location: "zip code"
 }
 
-client.search("New York", params, locale)
+# $client.search("New York", params, locale)
